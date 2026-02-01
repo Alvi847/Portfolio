@@ -1,0 +1,104 @@
+html{
+    background: linear-gradient(to left top, #1b3a4b, #0b525b); 
+    background-attachment: fixed;
+    /*background-color: #0b525b;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+hr.dashed {
+  border-top: 3px dashed;
+  border-bottom: 3px dashed;
+  width: 70%;
+  border-color: #454a4d; 
+}
+
+hr.v_dashed {
+  border-left: 3px dashed;
+  border-right: 3px dashed;
+  height: 100%;
+  border-color: #454a4d;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #c9afab;
+}
+
+a{
+    color: #d34c3a;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    color: #d34c3a;
+}
+
+li{
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+#title_div{
+    display: flex;
+    justify-content: center;
+}
+
+#contact_div{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+#description_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#description_columns{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 47% 13% 40%;
+}
+
+#description_columns p{
+    color:black;
+}
+
+#description_career_titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh;
+}
+
+#main_projects_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project_description_div{
+    display: flex;
+    gap: 5vw;
+}
+
+#tetris_js_img{
+    width:25vw;
+}
